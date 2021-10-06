@@ -3,6 +3,7 @@
 class ManagerController
 {
 
+
     /**
      * @return GenesisController
      */
