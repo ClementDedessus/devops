@@ -23,16 +23,6 @@
 	$action = (isset($_GET['action'])) ? htmlentities($_GET['action']) : 'default';
 	# Quelle action est demandée ?
 
-/**
- * @return HomeController
- */
-function getHomeController()
-{
-    require_once('controllers/HomeController.php');
-    $controller = new HomeController();
-    return $controller;
-}
-
 switch($action) {
 		case 'genesis':
 			$controller = ManagerController::getGenesisController();
@@ -44,7 +34,7 @@ switch($action) {
 			$controller = ManagerController::getContactController();
             break;
 		default: # Par défaut, le contrôleur de l'accueil est sélectionné
-			$controller = getHomeController();
+			$controller = ManagerController::getHomeController();
             break;
 	}
 	# Exécution du contrôleur correspondant à l'action demandée

@@ -32,4 +32,14 @@ class ManagerController
         $controller = new ContactController();
         return $controller;
     }
+
+    /**
+     * @return HomeController
+     */
+    public static function getHomeController()
+    {
+        require_once('controllers/HomeController.php');
+        $controller = new HomeController();
+        return $controller;
+    }
 }
