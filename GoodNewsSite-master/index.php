@@ -45,7 +45,7 @@ function getBooksController()
 /**
  * @return ContactController
  */
-function getHomeController()
+function getContactController()
 {
     require_once('controllers/ContactController.php');
     $controller = new ContactController();
@@ -70,7 +70,7 @@ switch($action) {
 			$controller = getBooksController();
             break;
 		case 'contact':
-			$controller = getHomeController();
+			$controller = getContactController();
             break;
 		default: # Par défaut, le contrôleur de l'accueil est sélectionné
 			$controller = getDefaultController();
