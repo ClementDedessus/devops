@@ -12,4 +12,14 @@ class ManagerController
         $controller = new GenesisController();
         return $controller;
     }
+
+    /**
+     * @return BooksController
+     */
+    public static function getBooksController()
+    {
+        require_once('controllers/BooksController.php');
+        $controller = new BooksController();
+        return $controller;
+    }
 }

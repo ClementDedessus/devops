@@ -24,16 +24,6 @@
 	# Quelle action est demandée ?
 
 /**
- * @return BooksController
- */
-function getBooksController()
-{
-    require_once('controllers/BooksController.php');
-    $controller = new BooksController();
-    return $controller;
-}
-
-/**
  * @return ContactController
  */
 function getContactController()
@@ -58,7 +48,7 @@ switch($action) {
 			$controller = ManagerController::getGenesisController();
             break;
 		case 'books':
-			$controller = getBooksController();
+			$controller = ManagerController::getBooksController();
             break;
 		case 'contact':
 			$controller = getContactController();
