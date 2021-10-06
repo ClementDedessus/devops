@@ -52,6 +52,16 @@ function getHomeController()
     return $controller;
 }
 
+/**
+ * @return HomeController
+ */
+function getDefaultController()
+{
+    require_once('controllers/HomeController.php');
+    $controller = new HomeController();
+    return $controller;
+}
+
 switch($action) {
 		case 'genesis':
 			$controller = getController();
@@ -63,9 +73,8 @@ switch($action) {
 			$controller = getHomeController();
             break;
 		default: # Par défaut, le contrôleur de l'accueil est sélectionné
-			require_once('controllers/HomeController.php');
-			$controller = new HomeController();
-			break;
+			$controller = getDefaultController();
+            break;
 	}
 	# Exécution du contrôleur correspondant à l'action demandée
 	$controller->run();
