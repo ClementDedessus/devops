@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e93d549-5080-445f-9e43-19ac4d5a1c13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <workItem from="1636556527885" duration="746000" />
       <workItem from="1636561157182" duration="565000" />
       <workItem from="1636561754317" duration="517000" />
-      <workItem from="1636562293370" duration="317000" />
+      <workItem from="1636562293370" duration="580000" />
     </task>
     <servers />
   </component>
