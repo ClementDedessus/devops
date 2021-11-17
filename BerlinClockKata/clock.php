@@ -9,5 +9,7 @@ function clock()
     //2eme ligne heure 
 
     //1er ligne minutes 
+
     //2eme ligne minues 
+
 }
