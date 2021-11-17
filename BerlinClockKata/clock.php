@@ -1,7 +1,7 @@
 <?php
 
-class clock{
-
+function clock()
+{
 
     //ampoule seconde (pair/impaire)
 
@@ -10,4 +10,4 @@ class clock{
 
     //1er ligne minutes 
     //2eme ligne minues 
-}   
+}
