@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e93d549-5080-445f-9e43-19ac4d5a1c13" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BerlinClockKata/TestBerlinClockKata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BerlinClockKata/clock.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BerlinClockKata/clock.php" beforeDir="false" afterPath="$PROJECT_DIR$/BerlinClockKata/BerlinClockKata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BerlinClockKata/style.css" beforeDir="false" />
-    </list>
+    <list default="true" id="1e93d549-5080-445f-9e43-19ac4d5a1c13" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +81,7 @@
       <workItem from="1636564293060" duration="569000" />
       <workItem from="1636564913972" duration="457000" />
       <workItem from="1637606440698" duration="119000" />
-      <workItem from="1637767043099" duration="241000" />
+      <workItem from="1637767043099" duration="450000" />
     </task>
     <servers />
   </component>
