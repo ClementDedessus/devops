@@ -13,6 +13,7 @@ class berlinClockKataTest extends TestCase
 
     }
 
+    
     public function testFiveMinutes()
     {
         $minute = new berlinClockKata();
