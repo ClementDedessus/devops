@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e93d549-5080-445f-9e43-19ac4d5a1c13" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-DevOps2021" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -81,7 +82,10 @@
       <workItem from="1636561754317" duration="517000" />
       <workItem from="1636562293370" duration="1951000" />
       <workItem from="1636564293060" duration="569000" />
-      <workItem from="1636564913972" duration="199000" />
+      <workItem from="1636564913972" duration="457000" />
+      <workItem from="1637606440698" duration="119000" />
+      <workItem from="1637767043099" duration="909000" />
+      <workItem from="1637768229134" duration="1497000" />
     </task>
     <servers />
   </component>
