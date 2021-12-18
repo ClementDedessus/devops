@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.6.4
--- https://www.phpmyadmin.net/
---
--- Client :  127.0.0.1
--- Généré le :  Mar 18 Juillet 2017 à 10:20
--- Version du serveur :  5.7.14
--- Version de PHP :  5.6.25
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
