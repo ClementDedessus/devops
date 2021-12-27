@@ -6,7 +6,7 @@ class password
 {
     public function passwordVerif(string $mdp): string
     {
-        $maj = preg_match('/[A-Z]/', $mdp); //vérifie si il y a bine une majuscule
+        $maj = preg_match('/[A-Z]/', $mdp); //vérifie si il y a bien une majuscule
         $min = preg_match('/[a-z]/', $mdp); //vérifie si il y a bien une minuscule
         $chiffre = preg_match('/\d/', $mdp); //vérifie si il y a bien un chiffre
         $lettre = preg_match('/[a-z]/i', $mdp); //vérifie si il y a au moins une lettre

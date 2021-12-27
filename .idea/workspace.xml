@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e93d549-5080-445f-9e43-19ac4d5a1c13" name="Changes" comment="" />
+    <list default="true" id="1e93d549-5080-445f-9e43-19ac4d5a1c13" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPL%20password%20tester/password.php" beforeDir="false" afterPath="$PROJECT_DIR$/IPL%20password%20tester/password.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +59,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -84,7 +89,7 @@
       <workItem from="1637606440698" duration="119000" />
       <workItem from="1637767043099" duration="909000" />
       <workItem from="1637768229134" duration="1497000" />
-      <workItem from="1640627092003" duration="161000" />
+      <workItem from="1640627092003" duration="375000" />
     </task>
     <servers />
   </component>
@@ -102,5 +107,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
